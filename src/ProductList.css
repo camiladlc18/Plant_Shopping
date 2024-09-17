@@ -39,6 +39,11 @@ body {
    
 }
 
+.quantity_cart{
+    font-size: 16px;
+    color: #f1f1f1;
+}
+
 /* Product Grid */
 .product-grid {
     display:flex;
