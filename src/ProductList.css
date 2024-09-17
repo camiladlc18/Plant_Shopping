@@ -111,6 +111,16 @@ body {
     background-color: #c0392b;
 }
 
+.product-button:disabled {
+    background-color: #808080; 
+    color: #151010; 
+}
+
+.product-button:disabled:hover {
+    background-color: #808080; 
+    color: #151010; 
+}
+
 /* Pseudo-elements - Sale badge */
 .product-card::before {
     content: "SALE";
@@ -197,6 +207,12 @@ body {
 }
 /* ProductList.css */
 
+.product-category{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 .product-button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -206,7 +222,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 8px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
   }
